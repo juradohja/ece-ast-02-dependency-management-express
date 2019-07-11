@@ -1,0 +1,34 @@
+{
+  "name": "ece-ast-02-dependency-management-express",
+  "version": "0.0.0",
+  "description": "Module 2 for the Asynchronous Server Technologies course at ECE Paris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juradohja/ece-ast-02-dependency-management-express.git"
+  },
+  "keywords": [
+    "nodejs",
+    "dependencies",
+    "express",
+    "nodemon",
+    "ejs"
+  ],
+  "author": "José Alberto Jurado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juradohja/ece-ast-02-dependency-management-express/issues"
+  },
+  "homepage": "https://github.com/juradohja/ece-ast-02-dependency-management-express#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.1"
+  }
+}

@@ -4,21 +4,23 @@
 ### ECE Paris
 ### Asynchronous Server Technologies
 
-# NodeJS
+# Dependency Management & Express
 ##### by: José Alberto Jurado
 
 ---
 
 ## Introduction
 
-This is the first of a series of exercises done in the Asynchronous Server Technologies course 
-at ECE Paris, summer 2019. It consists of a very simple and basic web application built with NodeJS.
-It's purpose is to understand the basics of developing a web application with this tool, understanding 
-callback functions, routing, query parameters and modules.
+This is the second of a series of exercises done in the Asynchronous Server Technologies course 
+at ECE Paris, summer 2019. The basic NodeJS server created in [ece-ast-01-nodejs](https://github.com/juradohja/ece-ast-01-nodejs)
+was replaced with Express syntax. Also, a `package.json` file was added to include dependencies. 
+EJS files were also created along with modules and Bootstrap and JQuery files to implement simple GET
+requests using AJAX.
 
 ## Run
 
-To run, simply execute `node index.js` and navigate to `localhost:8082/`. You may change the port at
+To run, simply execute `npm run dev` and navigate to `localhost:8082/hello`. You may insert `name`
+ as a query parameter with any value to display it on the page. You may change the port at
 `index.js`.
 
 
